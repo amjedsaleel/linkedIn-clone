@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    overflow-x: hidden;
 }
 
 .header {
@@ -84,37 +85,6 @@ body {
     max-width: 1200px;
     margin: 0 20px;
 }
-
-.sidebar  {
-    position: sticky;
-    top: 80px;
-    flex: 0.2;
-    border-radius: 10px;
-    text-align: center;
-    height: fit-content;
-}
-
-.sidebar-top img {
-    margin-bottom: -20px;
-    width: 100%;
-    height: 60px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    object-fit: cover;
-}
-
-.sidebar-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid lightgray;
-    border-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: #ffff;
-    padding-bottom: 10px;
-}
-
 
 .main {
     width: 100%;
@@ -268,5 +238,86 @@ body {
 
 .attachments .text {
     margin-left: 10px;
+
+}
+
+.post-container .about  {
+    display: flex;
+    padding: 12px;
+
+}
+
+.post-container .about .profile-details  {
+    margin-left: 8px;
+
+}
+
+.post-container .profile-pic img {
+    width: 48px;
+    height: 48px;
+    /* color: rgb(121 143 166); */
+    filter: rgb(121 143 166);
+}
+
+.post-container .name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post-container .career {
+    font-size: 12px;
+    color: rgb(125 125 125);
+}
+
+.post-container .date {
+    display: flex;
+}
+
+.post-container .date .time p, .post-container .date .public {
+    font-size: 14px;
+    color: rgb(125 125 125);
+}
+
+.post-container .post-text p {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.post-container .hashtage {
+    font-size: 14px;
+    color: #0a66c2;
+    font-weight: bold;
+}
+
+.post-container .respond {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+}
+
+.post-container .like,
+.post-container .comment,
+.post-container .share,
+.post-container .send {
+    display: flex;
+    align-items: center;
+}
+
+.post-container .comment:hover,
+.post-container .like:hover,
+.post-container .share:hover,
+.post-container .send:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.post-container .respond h4 {
+    font-size: 14px;
+    color: #666666;
+}
+
+.post-container .respond i  {
+    color: #666666;
 
 }
