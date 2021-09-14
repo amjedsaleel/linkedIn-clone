@@ -92,7 +92,8 @@ body {
 
 .container {
     display: flex;
-}
+    margin-left: 250px;
+}   
  
 .right-section {
     margin-top: 40px;
@@ -139,7 +140,7 @@ body {
 
 .right-section .sidebar-item {
     display: flex;
-    /* justify-content: ; */
+    /* justify-content: space-between; */
 }
 
 .sidebar-item .item-heading {
@@ -321,3 +322,85 @@ body {
     color: #666666;
 
 }
+
+
+.left-section {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.left-card {
+    width: 315px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(224 223 220);
+
+}
+
+.left-section .linkedIn-news-container h3,
+.left-section .top-course-container h3 {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+.left-section ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(102 102 102);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.left-section .linkedIn-news-container ul,
+.left-section .top-course-container  ol {
+    margin-left: 30px;
+}
+
+.left-section .linkedIn-news-container li,
+.left-section .top-course-container li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.left-section .linkedIn-news-container p,
+.left-section .top-course-container p {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(166 166 166);
+}
+
+.left-section .linkedIn-news-container .news,
+.left-section .top-course-container .course {
+    margin-bottom: 15px;
+}
+
+ol li::before {
+    color: rgb(102 102 102);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.left-section .add-container img {
+    margin-left: 8px;
+}
+
+.left-section .add-container {
+    position: sticky;
+    z-index: 5;
+    margin-top: 10px;
+}
+
+
+
+
