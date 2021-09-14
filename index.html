@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,50 +9,115 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+
     <!-- Header Section -->
     <div class="header">
         <div class="header-left">
             <img src="./images/icons8-linkedin.svg" alt="" srcset="">
             <div class="header-search">
                 <i class="material-icons">search</i>
-                <input type="text">            
+                <input type="text">
             </div>
         </div>
- 
+
         <div class="header-right">
             <div class="header-options">
                 <i class="material-icons header-icon">home</i>
                 <h3>Home</h3>
             </div>
             <div class="header-options">
-                <i class="material-icons header-icon">people</i>                
+                <i class="material-icons header-icon">people</i>
                 <h3>My Network</h3>
             </div>
             <div class="header-options">
-                <i class="material-icons header-icon">work</i>                
+                <i class="material-icons header-icon">work</i>
                 <h3>Jobs</h3>
             </div>
             <div class="header-options">
-                <i class="material-icons header-icon">chat</i>                
+                <i class="material-icons header-icon">chat</i>
                 <h3>Messaging</h3>
             </div>
             <div class="header-options">
-                <i class="material-icons header-icon">notifications</i>                
-                    <h3>Notifications</h3>
+                <i class="material-icons header-icon">notifications</i>
+                <h3>Notifications</h3>
             </div>
             <div class="header-options">
-                <span class="material-icons header-icon">account_circle</span>                
+                <span class="material-icons header-icon">account_circle</span>
                 <h3>Me</h3>
             </div>
-            
+
         </div>
     </div>
+
+    <!-- Main section-->
+    <section class="main">
+        <div class="container">
+
+            <!-- Right section -->
+            <div class="right-section">
+                <div class="card">
+                    <div class="details">
+                        <img class="banner" src="./images/banner.png" alt="" srcset="">
+                        <div>
+                            <img class="profile" src="./images/5657l.jpg" alt="" srcset="">
+                        </div>
+                        <div style="margin-top: 55px; margin-bottom: 20px;">
+                            <h1 class="name">Amjed Saleel K</h1>
+                            <p class="subtitle">Webmaster at Pygrammer | <br> python | Django</p>
+                        </div>
+                        <hr>
+
+                        <div class="sidebar-item">  
+                            <p class="item-heading">Who viewed your profile</p>
+                            <p class="count">85</p>   
+                        </div>
+                        <div class="sidebar-item">  
+                            <p class="item-heading">Views of your post</p>
+                            <p class="count">85</p>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feed section -->
+            <div class="feed">
+                <div class="feed-card">
+                    <div class="start-post">
+                        <img src="./images/5657l.jpg" alt="" srcset="">
+                        <form action="" method="get">
+                            <input class="input-field" type="text" placeholder="Start a post">
+                        </form>
+                    </div>
+                    <div class="attachments">
+                        <div class="items">
+                            <i class="material-icons photo">photo</i>
+                            <h4 class="text">Photo</h4>
+                        </div>
+                        <div class="items">
+                            <i class="material-icons video"> smart_display</i>
+                            <h4 class="text">Video</h4>
+                        </div>
+                        <div class="items">
+                            <i class="material-icons event">event</i>
+                            <h4 class="text">Event</h4>
+                        </div>
+                        <div class="items">
+                            <span class="material-icons article">event_note</span>
+                            <h4 class="text">Write article</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="left-section">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
