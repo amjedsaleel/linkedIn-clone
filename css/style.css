@@ -101,12 +101,13 @@ body {
 }
 
 
-.right-section .card {
-    
+.right-section .card { 
     width: 225px;
     background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(224 223 220);
 }
 
 .right-section .name {
@@ -161,6 +162,44 @@ body {
     margin-top: 40px;
 }
 
+.right-section .group-heading,
+.right-section .hashtag-heading {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2577c9;
+}
+
+.right-section .group-container .group,
+.right-section .hashtag-container .hashtag {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.right-section .group-container .group i{
+    color: #666;
+}
+
+.right-section .group-container .group h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color:#666666;
+    margin-left: 10px;
+}
+
+.right-section .hashtag-container p {
+    font-weight: 900;
+    color: #666;
+}
+
+.right-section .hashtag-container .hashtag h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color:#666666;
+    margin-left: 10px;
+}
 
 /* feed section */
 .feed {
